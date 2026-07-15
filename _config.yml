@@ -17,7 +17,7 @@ title: COL1000
 tagline: Introduction to Programming
 description: An introductory course on Python programming  2026-2027
 author: Adarsh barik
-baseurl: '/course-demo' # the subpath of your site, e.g. /blog
+baseurl: '/COL1000' # the subpath of your site, e.g. /blog
 url: 'https://adarsh-barik.github.io' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
 
