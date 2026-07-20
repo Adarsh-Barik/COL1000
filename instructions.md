@@ -10,7 +10,7 @@ nav_order: 1
 {: .note }
 >
 > **📅 Wednesday, 22 July 2026**  
-> **🕗 Reporting Time:** 8:10 AM  
+> **🕗 Reporting Time:** 8:00 AM  
 > **📝 Exam Time:** 8:30 AM – 9:15 AM (45 minutes)  
 > **🏫 Location:** See screenshot below (Check [UG admission portal](https://academics.iitd.ac.in/ug-admissions/) for updated info)  
 
