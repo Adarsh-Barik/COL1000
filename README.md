@@ -15,7 +15,7 @@ seo:
 >
 > **📅 Wednesday, 22 July, 2026**  
 > **🕗 Reporting Time:** 8:00 AM  
-> **📝 Exam Time:** 8:30 AM – 9:15 AM (45 minutes)
+> **📝 Exam Time:** 8:30 AM – 9:15 AM (45 minutes)  
 > ** Please do not be late for the test. The reporting time is 8:00 AM. Note that you will not be allowed to enter after 8:30. **  
 > 👉 **[See instructions here!](instructions.md)**
 
