@@ -34,7 +34,7 @@ This will result in a degree of uniformity in each section, so it will be easier
 	- You are NOT allowed to bring any electronic device (including electronic watches and mobiles).
 3. **Enter your Entry Number carefully.** You will be asked to enter your **Entry Number** on the answer sheet. Please ensure that it is entered correctly.
 
-4. Please do not be late for the test. The reporting time is 8:00 AM. Note that **you will not be allowed to enter after 8:30**.
+4. Please do not be late for the test. The reporting time is 8:00 AM. Note that **you will not be allowed to enter after 8:30 AM**.
 
 5. **Please familiarize yourself with the front page of the examination and OMR sheet before you begin.** A snapshot of the front page and the OMR sheet is provided below.
 
