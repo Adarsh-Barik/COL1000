@@ -21,8 +21,8 @@ seo:
 Ragesh Jaisawal, Rajendra Kumar, Adarsh Barik, and Vijay Keswani
 
 ### Lectures
-- Monday: 2:00 pm - 3:30 pm (Location: TBD) 
-- Thursday: 2:00 pm - 3:30 pm (Location: TBD)
+- Monday: 2:00 pm - 3:30 pm (Location: LH 114, LH 111, LH 408, LH 410) 
+- Thursday: 2:00 pm - 3:30 pm (Location: LH 114, LH 111, LH 408, LH 410)
 
 ### Labs
 - Monday: 9:00 am - 11:00 am, 11:00 am - 1:00 pm 
@@ -38,33 +38,49 @@ Ragesh Jaisawal, Rajendra Kumar, Adarsh Barik, and Vijay Keswani
 
 ### Head TAs
 
-TBD
+1. Mahima Gupta
+2. Mridul Gupta
+3. Shashwat Agrawal
 
 ### Office hours
 
 TBD
-
+<!--
 | Monday | Tuesday | Wednesday | Thursday | Friday |
 | -------- | -------- | -------- | ------- | ------- |
 |   |    |   | | |
 |   |    |   | | |
+-->
 
 ### TA Lab Duties
 
-|  | LH TBD | LH TBD |
-| -------- | -------- | ------ |
-| Monday    | TBD   | TBD   |
-| Tuesday    | TBD   | TBD   |
-| Wednesday    | TBD   | TBD   |
-| Thursday    | TBD   | TBD   |
-| Friday    | TBD   | TBD   |
+| Slot | Time & Rooms | Lab Head TA | Assisting TAs |
+| --- | --- | --- | --- |
+| **Monday 1** | 9:00 AM - 11:00 AM (2 rooms) | Aishik Chanda | Dhruv Aggarwal, Akanksha, Rakesh Sahu, Aslam, Soham Sunil Malvadkar, Nishant Deep, Ashutosh Sharma, Dipesh Kant |
+| **Monday 2** | 11:00 AM - 1:00 PM (2 rooms) | Nizaul Rahman | Mohammad Tabrez, Nitish Kumar, Rishav Rukmangdh Raj, Susmit Mahato, Chaudhari Pratik Fuljibhai, Aslam |
+| **Tuesday 1** | 9:00 AM - 11:00 AM (1 room) | Sohail Khan | Sayan Kumar Lakra, Chaudhari Pratik Fuljibhai, Rittika Ghosh, Susmit Mahato |
+| **Wednesday 1** | 9:00 AM - 11:00 AM (2 rooms) | Parmohit Dev Singh Slathia | Pradunya Pramod Kale, Sumil Verma, Ashutosh Sharma, Rishav Rukmangdh Raj, Kartik Agarwal, Mohit Athikamsetty |
+| **Thursday 1** | 9:00 AM - 11:00 AM (2 rooms) | Chirag Kathpalia | Dhruv Aggarwal, Akanksha, Rakesh Sahu, Soham Sunil Malvadkar, Nishant Deep, Dipesh Kant, Mohammad Tabrez, Ayinam Surendra |
+| **Thursday 2** | 11:00 AM - 1:00 PM (1 room) | Aditi Anand | Pradunya Pramod Kale, Kartik Agarwal, Nitish Kumar |
+| **Friday 1** | 9:00 AM - 11:00 AM (1 room) | Gandem Nitin | Ayinam Surendra, Rittika Ghosh, Mohit Athikamsetty |
 
+### Lab Tutors
+
+| Tutor Name | Assigned Slots |
+| --- | --- |
+| Ansh Agrawal | T1, W1, Th1 |
+| Gaurav Raju Shende | W1, F1 |
+| Raj Nareshkumar Chandak | M1, M2 |
+| Meet Bhaskar Patil | Th1, Th2 |
+| Sanjitha S | M1, M2 |
+
+<!--
 ### Lab exam TAs
 TBD
 
 ### Grading TAs
 TBD 
-
+-->
 ---
 
 ## Course material
@@ -75,4 +91,4 @@ Lecture notes, lab exercises, practice problems, and other course materials will
 
 ## Setting-up Python
 
-Students are strongly advised to install Python version 3.8.10 on their systems. All programming exercises, lab exams must be written and tested in this version.
+Students are strongly advised to install Python version >= 3.0 on their systems. All programming exercises, lab exams must be written and tested in this version.
