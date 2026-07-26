@@ -85,7 +85,12 @@ TBD
 
 ## Course material
 
-Lecture notes, lab exercises, practice problems, and other course materials will be shared through Piazza.
+Lecture notes, lab exercises, practice problems, and other course materials will be shared through [Piazza](https://piazza.com/iitd.ac.in/fall2026/col1000/home). Only for Lab 1, we are also uploading it here. 
+
+**Lab 1**:
+1. [Tasks for Lab 1](assets/pdfs/COL1000_Lab1.pdf) 
+2. [Lab Conduct and Academic Honesty](assets/pdfs/COL1000_Lab_Conduct_and_Academic_Honesty.pdf)
+3. [Linux Commands Reference Guide](assets/pdfs/COL1000_Lab1_Linux_Commands_Reference_Guide.pdf)
 
 ---
 
