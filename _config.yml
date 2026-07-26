@@ -29,11 +29,11 @@ heading_anchors: true
 permalink: pretty
 aux_links:
   Gradescope:
-    - 'https://www.gradescope.com/'
+    - 'https://www.gradescope.com/courses/1340254'
   Piazza:
-    - 'https://piazza.com/'
+    - 'https://piazza.com/iitd.ac.in/fall2026/col1000/home'
   Moodle:
-    - 'https://moodle.iitd.ac.in'
+    - 'https://moodle.iitd.ac.in/course/view.php?id=25156'
 footer_content:
 
 # Collections for website data
