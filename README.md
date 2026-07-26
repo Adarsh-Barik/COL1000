@@ -11,13 +11,9 @@ seo:
 # COL1000: Introduction to Programming
 
 {: .important-title }
-> ## Python Programming Assessment Test (Computer Literacy Test)
+> ## [Check your classroom assignment here](classrooms.md)
 >
-> **📅 Wednesday, 22 July, 2026**  
-> **🕗 Reporting Time:** 8:00 AM  
-> **📝 Exam Time:** 8:30 AM – 9:15 AM (45 minutes)  
-> **Please do not be late for the test. The reporting time is 8:00 AM. Note that you will not be allowed to enter after 8:30 AM.**  
-> 👉 **[See instructions here!](instructions.md)**
+> **Students have been assigned different rooms based on the Python programming assessment test conducted on July 22nd, 2026. You can find your classroom by clicking the link above 👆**    
 
 ## Course Information
 

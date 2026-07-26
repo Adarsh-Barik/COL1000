@@ -8,7 +8,7 @@ nav_order: 4
 
 The students are assigned different classrooms based on the Python programming assessment test conducted on July 22nd, 2026.
 
-## Find your entry number
+## Find your classroom using entry number
 
 The student list is provided in the PDF below.
 
