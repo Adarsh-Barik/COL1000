@@ -14,7 +14,8 @@ seo:
 > ## [Check your classroom assignment here](classrooms.md)
 >
 > **Students have been assigned different rooms based on the Python programming assessment test conducted on July 22nd, 2026. You can find your classroom by clicking the link above 👆**    
-> Note: If your name is not listed, please attend the class in **LH111** and inform the instructor after the class.  
+
+> **Note**: If your entry number is not listed, please attend the class in **LH111** and inform the instructor after the class.  
 
 ## Course Information
 

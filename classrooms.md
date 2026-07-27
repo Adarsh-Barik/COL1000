@@ -7,7 +7,7 @@ nav_order: 4
 # Classroom Assignment
 
 The students are assigned different classrooms based on the Python programming assessment test conducted on July 22nd, 2026.
-> If your name is not listed, please attend the class in LH111 and inform the instructor after the class.  
+> If your entry  number is not listed, please attend the class in LH111 and inform the instructor after the class.  
 
 ## Find your classroom using entry number
 
