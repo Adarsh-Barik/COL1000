@@ -26,7 +26,7 @@ Ragesh Jaisawal, Rajendra Kumar, Adarsh Barik, and Vijay Keswani
 - Monday: 2:00 pm - 3:30 pm (Location: LH 114, LH 111, LH 408, LH 410) 
 - Thursday: 2:00 pm - 3:30 pm (Location: LH 114, LH 111, LH 408, LH 410)
 
-### Labs
+### Labs (LH 503, LH 504)
 - Monday: 9:00 am - 11:00 am, 11:00 am - 1:00 pm 
 - Tuesday: 9:00 am - 11:00 am
 - Wednesday: 9:00 am - 11:00 am
@@ -61,7 +61,7 @@ TBD
 | **Monday 1** | 9:00 AM - 11:00 AM (2 rooms) | Aishik Chanda | Dhruv Aggarwal, Akanksha, Rakesh Sahu, Aslam, Soham Sunil Malvadkar, Nishant Deep, Ashutosh Sharma, Dipesh Kant |
 | **Monday 2** | 11:00 AM - 1:00 PM (2 rooms) | Nizaul Rahman | Mohammad Tabrez, Nitish Kumar, Rishav Rukmangdh Raj, Susmit Mahato, Chaudhari Pratik Fuljibhai, Aslam |
 | **Tuesday 1** | 9:00 AM - 11:00 AM (1 room) | Sohail Khan | Sayan Kumar Lakra, Chaudhari Pratik Fuljibhai, Rittika Ghosh, Susmit Mahato |
-| **Wednesday 1** | 9:00 AM - 11:00 AM (2 rooms) | Parmohit Dev Singh Slathia | Pradunya Pramod Kale, Sumil Verma, Ashutosh Sharma, Rishav Rukmangdh Raj, Kartik Agarwal, Mohit Athikamsetty |
+| **Wednesday 1** | 9:00 AM - 11:00 AM (2 rooms) | Akhil Devarapalli | Pradunya Pramod Kale, Sumil Verma, Ashutosh Sharma, Rishav Rukmangdh Raj, Kartik Agarwal, Mohit Athikamsetty |
 | **Thursday 1** | 9:00 AM - 11:00 AM (2 rooms) | Chirag Kathpalia | Dhruv Aggarwal, Akanksha, Rakesh Sahu, Soham Sunil Malvadkar, Nishant Deep, Dipesh Kant, Mohammad Tabrez, Ayinam Surendra |
 | **Thursday 2** | 11:00 AM - 1:00 PM (1 room) | Aditi Anand | Pradunya Pramod Kale, Kartik Agarwal, Nitish Kumar |
 | **Friday 1** | 9:00 AM - 11:00 AM (1 room) | Gandem Nitin | Ayinam Surendra, Rittika Ghosh, Mohit Athikamsetty |
