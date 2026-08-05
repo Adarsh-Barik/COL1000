@@ -24,7 +24,7 @@ console.log('✅ Generated manifest.json');
 
 // --- Generate index.html ---
 let topicCardsHTML = topics.map(t => `
-  <a class="topic-card" href="/course-demo/practice/topic.html?topic=${t.key}">
+  <a class="topic-card" href="/COL1000/practice/topic.html?topic=${t.key}">
     <h3>${t.displayName}</h3>
     <p>${t.count} Questions</p>
     <span class="question-count">${t.count} problems</span>
@@ -37,7 +37,7 @@ const indexHTML = `<!DOCTYPE html>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Practice Arena 🎮 | COL1000</title>
-  <link rel="stylesheet" href="/course-demo/practice/style.css">
+  <link rel="stylesheet" href="/COL1000/practice/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -52,7 +52,7 @@ const indexHTML = `<!DOCTYPE html>
       </div>
 
       <div class="topic-grid">
-        <a class="topic-card featured-card" href="/course-demo/practice/topic.html">
+        <a class="topic-card featured-card" href="/COL1000/practice/topic.html">
           <h2>📚 Question Bank</h2>
           <p>Browse all practice questions organized by topic and difficulty.</p>
         </a>
@@ -81,7 +81,7 @@ const topicHTML = `<!DOCTYPE html>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Practice | COL1000</title>
-  <link rel="stylesheet" href="/course-demo/practice/style.css">
+  <link rel="stylesheet" href="/COL1000/practice/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1"><\/script>
   <style>
@@ -352,18 +352,18 @@ const topicHTML = `<!DOCTYPE html>
     async function loadQuestions() {
       try {
         if (topicKey) {
-          const response = await fetch('/course-demo/practice/questions/' + topicKey + '.json');
+          const response = await fetch('/COL1000/practice/questions/' + topicKey + '.json');
           if (!response.ok) throw new Error('Topic not found');
           const data = await response.json();
           data.isAll = false;
           return data;
         } else {
-          const manifestResponse = await fetch('/course-demo/practice/questions/manifest.json');
+          const manifestResponse = await fetch('/COL1000/practice/questions/manifest.json');
           if (!manifestResponse.ok) throw new Error('Manifest not found');
           const topicKeys = await manifestResponse.json();
           let allQuestions = [];
           for (const key of topicKeys) {
-            const resp = await fetch('/course-demo/practice/questions/' + key + '.json');
+            const resp = await fetch('/COL1000/practice/questions/' + key + '.json');
             if (resp.ok) {
               const data = await resp.json();
               allQuestions = allQuestions.concat(data.questions.map(q => ({ ...q, topic: data.displayName || key })));
@@ -373,7 +373,7 @@ const topicHTML = `<!DOCTYPE html>
         }
       } catch (e) {
         document.getElementById('app').innerHTML =
-          '<h2>Error loading questions</h2><p>Please go back to the <a href="/course-demo/practice/">Practice Arena</a>.</p>';
+          '<h2>Error loading questions</h2><p>Please go back to the <a href="/COL1000/practice/">Practice Arena</a>.</p>';
         return null;
       }
     }
@@ -427,7 +427,7 @@ const topicHTML = `<!DOCTYPE html>
           html += '</div>';
         });
         html += '<div style="text-align: center; margin-top: 2rem;">' +
-                  '<a href="/course-demo/practice/" class="back-btn">🏠 Back to Topics</a>' +
+                  '<a href="/COL1000/practice/" class="back-btn">🏠 Back to Topics</a>' +
                 '</div>';
         document.getElementById('app').innerHTML = html;
         return;
@@ -460,7 +460,7 @@ const topicHTML = `<!DOCTYPE html>
           '<button class="next-btn" onclick="nextQuestion()" ' + (currentIndex === total - 1 ? 'disabled' : '') + '>Next ➡</button>' +
         '</div>' +
         '<div style="text-align: center; margin-top: 0.5rem;">' +
-          '<a href="/course-demo/practice/" class="back-btn">🏠 Back to Topics</a>' +
+          '<a href="/COL1000/practice/" class="back-btn">🏠 Back to Topics</a>' +
         '</div>';
 
       answered = false;
