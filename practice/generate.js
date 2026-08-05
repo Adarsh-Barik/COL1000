@@ -251,7 +251,7 @@ const topicHTML = `<!DOCTYPE html>
       catElement.style.display = 'none';
       catVisible = false;
       clearInterval(catInterval);
-      const nextDelay = 120000 + Math.random() * 60000; // 2-3 min
+      const nextDelay = 240000 + Math.random() * 60000; // 2-3 min
       if (catTimeout) clearTimeout(catTimeout);
       catTimeout = setTimeout(() => {
         if (!catVisible) {
