@@ -11,7 +11,7 @@ seo:
 # COL1000: Introduction to Programming
 
 {: .important-title }
-> ## [Check your classroom assignment here](classrooms.md)
+> ## [Check your updated classroom assignment here](classrooms.md)
 >
 > **Students have been assigned different rooms based on the Python programming assessment test conducted on July 22nd, 2026. You can find your classroom by clicking the link above 👆**    
 
