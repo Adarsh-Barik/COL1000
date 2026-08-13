@@ -36,7 +36,7 @@ Ragesh Jaisawal, Rajendra Kumar, Adarsh Barik, and Vijay Keswani
 ### Reference Books
 
 1. Introduction to Computation and Programming Using Python  by John Guttag
-2. Think Python  by Allen B. Downey
+2. [Think Python  by Allen B. Downey](https://greenteapress.com/thinkpython2/thinkpython2.pdf)
 
 ### Head TAs
 
