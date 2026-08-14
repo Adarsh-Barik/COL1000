@@ -217,7 +217,7 @@ const topicHTML = `<!DOCTYPE html>
     </main>
   </div>
 
-  <div id="roaming-cat" style="display:none;">🐈</div>
+  <div id="roaming-cat" style="display:none;">🇮🇳🐈</div>
 
   <script>
     // --- Roaming Cat (runs away from mouse, hides off-screen) ---
