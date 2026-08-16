@@ -251,7 +251,7 @@ const topicHTML = `<!DOCTYPE html>
       catElement.style.display = 'none';
       catVisible = false;
       clearInterval(catInterval);
-      const nextDelay = 240000 + Math.random() * 60000; // 2-3 min
+      const nextDelay = 480000 + Math.random() * 60000; // 2-3 min
       if (catTimeout) clearTimeout(catTimeout);
       catTimeout = setTimeout(() => {
         if (!catVisible) {
@@ -332,11 +332,11 @@ const topicHTML = `<!DOCTYPE html>
     });
 
     window.addEventListener('load', () => {
-      // First appearance after 10 seconds
+      // First appearance after 300 seconds
       setTimeout(() => {
         spawnCat();
         startCatMovement();
-      }, 10000);
+      }, 300000);
     });
 
     window.addEventListener('beforeunload', () => {
