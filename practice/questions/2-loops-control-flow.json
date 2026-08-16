@@ -7,8 +7,8 @@
       "level": "easy",
       "question": "What is the output of the following code? `print('abc', end=' ')` means: after printing abc, add a space instead of a newline.",
       "code": "i = 5\nwhile i > 0:\n    print(i, end=' ')\n    i -= 2",
-      "choices": ["5 3 1", "5 4 3 2 1", "5 3", "1 3 5"],
-      "answer": 0,
+      "choices": ["5 4 3 2 1", "5 3 1", "5 3", "1 3 5"],
+      "answer": 1,
       "hints": [
         "The loop runs as long as `i > 0`.",
         "`i` decreases by 2 in each iteration.",
@@ -20,8 +20,8 @@
       "level": "easy",
       "question": "What is the output?",
       "code": "for i in range(5, 0, -1):\n    print(i, end=' ')",
-      "choices": ["5 4 3 2 1", "4 3 2 1 0", "5 4 3 2", "1 2 3 4 5"],
-      "answer": 0,
+      "choices": ["4 3 2 1 0", "5 4 3 2", "5 4 3 2 1", "1 2 3 4 5"],
+      "answer": 2,
       "hints": [
         "`range(start, stop, step)` generates numbers from `start` to `stop-1`.",
         "A negative step means counting down.",
@@ -88,8 +88,8 @@
       "level": "medium",
       "question": "What is the output?",
       "code": "x = 0\nwhile x < 10:\n    x += 3\n    if x == 6:\n        break\n    print(x, end=' ')",
-      "choices": ["3", "3 6", "3 6 9", "3 9"],
-      "answer": 0,
+      "choices": ["3 6", "3", "3 6 9", "3 9"],
+      "answer": 1,
       "hints": [
         "`x` starts at 0, becomes 3, prints 3.",
         "Then `x` becomes 6, triggers `break`, so no further prints.",
@@ -101,8 +101,8 @@
       "level": "medium",
       "question": "What is the output?",
       "code": "x = 0\nwhile x < 3:\n    x += 1\n    if x == 2:\n        break\nprint(x)",
-      "choices": ["2", "1", "3", "else 2"],
-      "answer": 0,
+      "choices": ["1", "3", "0", "2"],
+      "answer": 3,
       "hints": [
         "`break` exits the loop when `x == 2`.",
         "After the loop, `print(x)` shows `x = 2`."
@@ -114,12 +114,12 @@
       "question": "What is the output?",
       "code": "for i in range(1, 4):\n    for j in range(i, 4):\n        if i + j == 4:\n            break\n        print(i, j, end=' ')",
       "choices": [
-        "1 1 1 2 3 3",
         "1 1 1 2",
         "1 1 2 2 3 3",
+        "1 1 1 2 3 3",
         "1 2 3"
       ],
-      "answer": 0,
+      "answer": 2,
       "hints": [
         "The outer loop runs `i = 1, 2, 3`.",
         "The inner loop runs `j` from `i` to 3.",
@@ -172,8 +172,8 @@
       "level": "challenging",
       "question": "What is the output?",
       "code": "x = 0\nfor i in range(1, 4):\n    for j in range(1, 4):\n        x += i + j\n        if x > 10:\n            break\n    if x > 10:\n        break\nprint(x)",
-      "choices": ["12", "10", "9", "15"],
-      "answer": 0,
+      "choices": ["10", "12", "9", "15"],
+      "answer": 1,
       "hints": [
         "The loops add `i+j` to `x` until `x > 10`.",
         "Simulate: i=1: j=1→x=2; j=2→x=5; j=3→x=9.",
