@@ -27,8 +27,8 @@ The course evaluation policy is:
 2. Paper Quiz 2: 3rd September
 3. Paper Quiz 3: 15th October
 4. Paper Quiz 4: 12th November
-5. Lab exam 1: 6th Sept
-6. Lab exam 2: Nov 2 - Nov 6 week
+5. Lab exam 1: 6th September
+6. Lab exam 2: November 2 - November 6 week
 
 
 
