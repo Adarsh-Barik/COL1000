@@ -26,15 +26,17 @@ The course evaluation policy is:
 1. 4th week quiz: 17th August, 2026, 6:30 - 7:30 pm
 2. 1st paper quiz: 3rd september
 3. 2nd paper quiz: 15th october
-4. 3rd paper quiz: 5th November
+4. 3rd paper quiz: 12th November
 5. Lab exam 1: 6th Sept
-6. Lab exam 2: 15th Nov
+6. Lab exam 2: Nov 2 - Nov 6 week
 
 
 
 ### Course Policies and Acadmic Honesty
 
-- **Attendance policy**: 4% for class attendance and 3% for lab attendance
+- **Attendance policy**
+	- 4% for class attendance and 3% for lab attendance
+	- For any institute-level policy, attendance will be calculated by considering both lectures and labs (1 per lab)
 - **Policy on plagiarism and other infractions (including LLM usage)**: 
 	- Copying weekly programming assignments: 0 for the first case and -1% out of 100% for every additional case.
 	- Cheating on proctored tests (quiz, lab quiz, minor, major): F grade and DISCO (which may impose additional penalty). Cheating cases may not be allowed to take the course in summer.
