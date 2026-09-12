@@ -24,8 +24,8 @@ The course evaluation policy is:
 ### Tentative Quiz schedule
 
 1. 4th week quiz: 17th August, 2026, 6:30 - 7:30 pm
-2. 1st paper quiz: 3rd september
-3. 2nd paper quiz: 15th october
+2. 1st paper quiz: 3rd September
+3. 2nd paper quiz: 15th October
 4. 3rd paper quiz: 12th November
 5. Lab exam 1: 6th Sept
 6. Lab exam 2: Nov 2 - Nov 6 week
