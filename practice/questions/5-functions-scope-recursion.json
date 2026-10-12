@@ -252,7 +252,7 @@
       ],
       "answer": 2,
       "hints": [
-        "Use the base case: f(1) = 1 and f(2) = 1. Recursion: f(2*m) = 2 * f(m) - 1, and f(2 * m + 1) = 2 * f(m) + 1."
+        "Use the base cases: f(1) = 1 and f(2) = 1. Recursion: f(2*m) = 2 * f(m) - 1, and f(2 * m + 1) = 2 * f(m) + 1."
       ]
     }
   ]
