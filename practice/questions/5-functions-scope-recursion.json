@@ -1,0 +1,259 @@
+{
+  "topic": "5-functions-scope-recursion",
+  "displayName": "Functions, Scope & Recursion",
+  "questions": [
+    {
+      "id": 1,
+      "level": "easy",
+      "question": "What is printed?",
+      "code": "def f(x, lst=[]):\n    lst.append(x)\n    return lst\n\nprint(f(1), end='')\nprint(f(2))",
+      "choices": [
+        "[1]\n[2]",
+        "[1]\n[1, 2]",
+        "[1, 2]\n[1, 2]",
+        "Error"
+      ],
+      "answer": 1,
+      "hints": [
+        "Default arguments are evaluated only once, at function definition time.",
+        "The same list object is reused across calls, so the second call appends to the already-modified list."
+      ]
+    },
+    {
+      "id": 2,
+      "level": "easy",
+      "question": "What is printed?",
+      "code": "x = 10\ndef f():\n    print(x)\n    x = 20\nf()",
+      "choices": [
+        "10",
+        "20",
+        "UnboundLocalError",
+        "None"
+      ],
+      "answer": 2,
+      "hints": [
+        "Python decides whether a name is local by scanning the entire function body for assignments.",
+        "Since `x` is assigned inside `f`, it is local throughout `f`; `print(x)` runs before that local `x` is bound."
+      ]
+    },
+    {
+      "id": 3,
+      "level": "easy",
+      "question": "What is printed?",
+      "code": "def f(n):\n    if n == 0:\n        return 0\n    return n + f(n-1)\nprint(f(4))",
+      "choices": [
+        "4",
+        "10",
+        "24",
+        "0"
+      ],
+      "answer": 1,
+      "hints": [
+        "This is a recursive sum: f(4) = 4 + f(3) = 4 + 3 + f(2) = ...",
+        "The base case returns 0, so the sum is 4 + 3 + 2 + 1 + 0."
+      ]
+    },
+    {
+      "id": 4,
+      "level": "easy",
+      "question": "What is printed?",
+      "code": "x = 5\ndef f():\n    global x\n    x = 10\nf()\nprint(x)",
+      "choices": [
+        "5",
+        "10",
+        "Error",
+        "None"
+      ],
+      "answer": 1,
+      "hints": [
+        "The `global` keyword tells Python that `x` inside `f` refers to the module-level variable.",
+        "The assignment `x = 10` changes the global `x`, so the final `print(x)` prints 10."
+      ]
+    },
+    {
+      "id": 5,
+      "level": "medium",
+      "question": "What is printed?",
+      "code": "def outer():\n    x = 1\n    def inner():\n        nonlocal x\n        x = 2\n    inner()\n    return x\nprint(outer())",
+      "choices": [
+        "1",
+        "2",
+        "Error",
+        "None"
+      ],
+      "answer": 1,
+      "hints": [
+        "`nonlocal x` makes `inner` refer to the `x` defined in the enclosing `outer`, not a new local variable.",
+        "After `inner()` runs, the `x` in `outer` has been changed to 2."
+      ]
+    },
+    {
+      "id": 6,
+      "level": "medium",
+      "question": "How many distinct ways can you climb a staircase with 5 steps if you can take 1 or 2 steps at a time?",
+      "code": "",
+      "choices": [
+        "5",
+        "8",
+        "13",
+        "6"
+      ],
+      "answer": 1,
+      "hints": [
+        "Let f(n) be the number of ways to reach step n. Then f(n) = f(n-1) + f(n-2).",
+        "The sequence for n = 1, 2, 3, 4, 5 is 1, 2, 3, 5, 8."
+      ]
+    },
+    {
+      "id": 7,
+      "level": "medium",
+      "question": "What is printed?",
+      "code": "x = 1\ndef outer():\n    x = 2\n    def inner():\n        global x\n        x = 3\n    inner()\n    return x\nprint(outer(), x)",
+      "choices": [
+        "2 3",
+        "3 3",
+        "2 1",
+        "3 1"
+      ],
+      "answer": 0,
+      "hints": [
+        "The `global x` inside `inner` skips over `outer`'s local `x` and modifies the module-level `x`.",
+        "`outer` returns its own local `x` (still 2), while the global `x` becomes 3."
+      ]
+    },
+     {
+      "id": 8,
+      "level": "medium",
+      "question": "What is printed?",
+      "code": "def count_ones(n):\n    if n == 0:\n        return 0\n    return (n % 2) + count_ones(n // 2)\nprint(count_ones(13))",
+      "choices": [
+        "2",
+        "3",
+        "4",
+        "13"
+      ],
+      "answer": 1,
+      "hints": [
+        "The expression `n % 2` is the last binary digit of n, and `n // 2` removes it.",
+        "13 in binary is 1101, which contains three 1s."
+      ]
+    },
+    {
+      "id": 9,
+      "level": "difficult",
+      "question": "What is printed?",
+      "code": "def funcs():\n def sq(x):\n  return x * x\n\n def cu(x):\n  return x * x * x\n return [sq, cu]\nfs = funcs()\n\nprint(fs[0](3),fs[1](3))",
+      "choices": [
+        "3 3",
+        "9 27",
+        "None None",
+        "Error"
+      ],
+      "answer": 1,
+      "hints": [
+        "In Python, functions can return a function."
+      ]
+    },
+    {
+      "id": 10,
+      "level": "difficult",
+      "question": "Tower of Hanoi Puzzle: You are given three pegs, labeled A, B, and C, and N disks of distinct sizes. Initially, all N disks are stacked on peg A in decreasing order of size from bottom to top (i.e., the largest disk is at the bottom and the smallest disk is at the top). Pegs B and C are initially empty. The objective is to move the entire stack from peg A to peg C, using peg B as an auxiliary peg, while satisfying the following rules: (i) One disk at a time: Each move transfers exactly one disk from one peg to another. (ii) Top disk only: Only the topmost disk on a peg may be moved. (iii) Size constraint: A disk may never be placed on top of a smaller disk. In the Tower of Hanoi puzzle with 5 disks, what is the minimum number of moves required to move all disks from the source peg to the destination peg?",
+      "code": "",
+      "choices": [
+        "15",
+        "31",
+        "32",
+        "63"
+      ],
+      "answer": 1,
+      "hints": [
+        "The recurrence is T(n) = 2·T(n-1) + 1, with T(1) = 1.",
+        "Solving gives T(n) = 2^n − 1; for n = 5, that is 32 − 1 = 31."
+      ]
+    },
+    {
+      "id": 11,
+      "level": "difficult",
+      "question": "What is printed?",
+      "code": "def a():\n    x = 1\n    def b():\n        nonlocal x\n        x = 2\n        def c():\n            nonlocal x\n            x = 3\n        c()\n        return x\n    return b()\nprint(a())",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "Error"
+      ],
+      "answer": 2,
+      "hints": [
+        "Both `b` and `c` declare `nonlocal x`, and both refer to the same `x` in `a`.",
+        "`c` sets that shared `x` to 3, so `b` returns 3 and `a` returns 3."
+      ]
+    },
+    {
+      "id": 12,
+      "level": "difficult",
+      "question": "How many permutations of the string 'abcd' does the following recursive function generate?",
+      "code": "def permute(s):\n    if len(s) == 1:\n        return [s]\n    result = []\n    for i in range(len(s)):\n        ch, rest = s[i], s[:i] + s[i+1:]\n        for p in permute(rest):\n            result.append(ch + p)\n    return result\nprint(len(permute('abcd')))",
+      "choices": [
+        "4",
+        "16",
+        "24",
+        "12"
+      ],
+      "answer": 2,
+      "hints": [
+        "The function generates all permutations of a string of distinct characters.",
+        "The number of permutations of n distinct items is n!; for n = 4, that is 24."
+      ]
+    },
+     {
+      "id": 13,
+      "level": "challenging",
+      "question": "What is printed?",
+      "code": "def make_adder():\n    total = 0\n    def add(n):\n        nonlocal total\n        if n == 0:\n            return total\n        total += n\n        return add(n-1)\n    return add\n\nf = make_adder()\nprint(f(3), end='')\nprint(f(3))",
+      "choices": [
+        "6\n12",
+        "6\n6",
+        "3\n3",
+        "0\n0"
+      ],
+      "answer": 0,
+      "hints": [
+        "`total` is a nonlocal variable that persists across calls to `f`.",
+        "First call adds 3 + 2 + 1 = 6; second call adds 3 + 2 + 1 to the existing total, giving 12."
+      ]
+    },
+    {
+      "id": 14,
+      "level": "challenging",
+      "question": "What is printed?",
+      "code": "def ack(m, n):\n    if m == 0:\n        return n + 1\n    elif n == 0:\n        return ack(m - 1, 1)\n    else:\n        return ack(m - 1, ack(m, n - 1))\nprint(ack(2, 3))",
+      "choices": [
+        "7",
+        "8",
+        "9",
+        "11"
+      ],
+      "answer": 2,
+      "hints": [
+        "Start from small cases: ack(2, 0) = 3, ack(2, 1) = 5, ack(2, 2) = 7.",
+        "Each increase of n by 1 for m = 2 adds 2 to the result, so ack(2, 3) = 9."
+      ]
+    },
+    {
+      "id": 15,
+      "level": "challenging",
+      "question": "Josephus problem: There are n people standing in a circle, numbered from 1 to n. Starting from person 1, counting proceeds in clockwise direction. In each step, every second person is eliminated from the circle. The counting then resumes from the next person, and the process continues until only one person remains. In the Josephus problem with 7 people numbered 1 to 7, starting at person 1, every second person is eliminated. Which person survives?",
+      "code": "",
+      "choices": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": 2,
+      "hints": [
+        "Use the base case: f(1) = 1 and f(2) = 1. Recursion: f(2*m) = 2 * f(m) - 1, and f(2 * m + 1) = 2 * f(m) + 1."
+      ]
+    }
+  ]
+}
